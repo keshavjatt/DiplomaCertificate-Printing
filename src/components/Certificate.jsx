@@ -51,9 +51,11 @@ function Certificate() {
                 
                 <div className="footer">
                     <p><b>Roll No:</b> {formData.roll_no}</p>
-                    <p><b>ASC Name:</b> {formData.asc_name}</p>
+                    <p><b>ASC Name:</b> {formData.asc_name}</p><br />
                     <p><b>Date of Birth:</b> {formData.dob}</p>
-                    <p><b>Date of Issue:</b> {getCurrentDate()}</p> {/* Here we set the current date */}
+                </div>
+                <div className="right">
+                    <p><b>Date of Issue:</b> {getCurrentDate()}</p>
                 </div>
             </div>
         </div>

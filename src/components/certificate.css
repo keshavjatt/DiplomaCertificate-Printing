@@ -6,11 +6,10 @@
 }
 
 .certificate {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   padding: 20px;
   max-width: 800px;
   text-align: center;
-  font-family: 'Arial', sans-serif;
   position: relative;
 }
 
@@ -26,9 +25,10 @@
 }
 
 .logo-right {
-  width: 100px;
-  border-radius: 50px;
+  width: 93px;
+  height: 96px;
   margin-left: 20px;
+  margin-top: -20px;
 }
 
 .footer {
@@ -36,15 +36,27 @@
   margin-top: 30px;
 }
 
+.right{
+  text-align: right;
+  margin-top: -20px;
+}
+
 .profile-img {
   margin-left: 490px;
 }
 
 strong {
-  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 25px;
 }
 
 .mk {
   text-transform: uppercase;
+  border-bottom: 2px dotted #000;
+}
+
+@media print {
+  .certificate-container {
+    margin-top: 160px;  /* Adjust the value to increase/decrease top margin */
+  }
 }
